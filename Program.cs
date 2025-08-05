@@ -44,7 +44,7 @@ namespace Simple_Calculator_with_Switch
                     break;
                 // if user enter / it will divide the two num
                 case "/":
-                    float quo = num1 - num2;
+                    float quo = num1 / num2;
                     // if the secnd num is 0 in will not divide
                     if (num2 == 0)
                     {
